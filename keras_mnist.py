@@ -4,6 +4,8 @@ from keras.datasets import mnist
 from keras import optimizers
 from keras import losses
 from keras.utils import to_categorical
+import matplotlib.pyplot as plt
+import numpy as np
 
 # Data initialization
 (train_data, train_labels), (test_data, test_labels) = mnist.load_data('data')
